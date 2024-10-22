@@ -11,9 +11,12 @@
         android:id="@+id/btNav"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:background="@color/purpe"
+        app:itemBackground="@color/purpe"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/botton_nav_menu" />
 
     <FrameLayout
         android:id="@+id/fragContainer"
